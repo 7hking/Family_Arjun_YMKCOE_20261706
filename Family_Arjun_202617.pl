@@ -1,13 +1,13 @@
-male(Rajesh),
-male(Amit),
+male(rajesh).
+male(amit).
 
-female(Sunita),
-female(Neha),
+female(sunita).
+female(neha).
 
-parent(Rajesh,Amit),
-parent(Rajesh,Neha),
+parent(rajesh,amit).
+parent(rajesh,neha).
 
 father(X,Y):-
     male(X),
-    parent(X,Y)
+    parent(X,Y).
     
